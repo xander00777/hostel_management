@@ -1,0 +1,87 @@
+<%- include("partials/header"); -%>
+
+  <!-- css -->
+  <link rel="stylesheet" href="css/mess.css" />
+
+  <!-- Title -->
+  <title>Mess Menu</title>
+  </head>
+
+  <body>
+
+    <%- include("partials/navbar"); -%>
+    <!-- buttons -->
+    <section class="buttons">
+      <button type="button" class="btn btn-secondary sat sat-size">Saturday</button>
+      <button type="button" class="btn btn-secondary sun">Sunday</button>
+      <button type="button" class="btn btn-secondary mon">Monday</button>
+      <button type="button" class="btn btn-secondary tue">Tuesday</button>
+      <button type="button" class="btn btn-secondary wed">Wednesday</button>
+      <button type="button" class="btn btn-secondary thu">Thursday</button>
+      <button type="button" class="btn btn-secondary fri">Friday</button>
+    </section>
+
+    <h1 class="heading2">Minimum expected menu on Saturday</h1>
+
+    <!-- cards -->
+    <section>
+      <div class="row">
+        <div class="col-lg-4 col-md-4 col-sm-6">
+          <div class="card">
+            <div class="card-header">
+              <h3>Breakfast</h3>
+            </div>
+            <div class="card-body breakfast">
+              <ul>
+                <li>Brown Bread(3)</li>
+                <li>
+                  &nbsp;&nbsp;&nbsp;Amul Butter(1/6) of 100gm /Tops Fruit Jam /
+                  Boiled Egg
+                </li>
+                <li>Tea</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-4 col-sm-6">
+          <div class="card">
+            <div class="card-header">
+              <h3>Lunch</h3>
+            </div>
+            <div class="card-body lunch">
+              <ul>
+                <li>Aalu Palak / Seasonal Veg.</li>
+                <li>Rice</li>
+                <li>Daal</li>
+                <li>Roti</li>
+                <li>Salad(Onion/Gajar/Muli/Kheera)</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-4 col-sm-6">
+          <div class="card">
+            <div class="card-header">
+              <h3>Dinner</h3>
+            </div>
+            <div class="card-body dinner">
+              <h4>Non-Veg</h4>
+              <ul>
+                <li>Chicken Biriany</li>
+                <li>Raita(Boondi)</li>
+              </ul>
+              <h4>Veg.</h4>
+              <ul>
+                <li>Mutter Paneer</li>
+                <li>Pulao</li>
+                <li>Raita(Boondi)</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <%- include("partials/footer"); -%>

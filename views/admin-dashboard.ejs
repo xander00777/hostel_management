@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DashBoard</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&family=Poppins:wght@300;400;500;600;700;800&family=Ubuntu&display=swap"
+    rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@500&display=swap" rel="stylesheet" />
+
+  <!-- css -->
+  <link rel="stylesheet" href="./css/admin-dashboard.css">
+</head>
+
+<body>
+  <div class="container">
+    <aside>
+      <div class="top">
+        <div class="logo">
+          <img src="css/Images/logo.png">
+          <h2>JMI<span class="success"> HOSTEL</span></h2>
+        </div>
+        <div class="close" id="close-btn">
+          <span class="material-icons-sharp">close</span>
+        </div>
+      </div>
+      <div class="sidebar">
+        <a id="dashboard" class="active" href="#">
+          <span class="material-icons-sharp">grid_view</span>
+          <h3>Dashboard</h3>
+        </a>
+        <a id="profile" href="#">
+          <span class="material-icons-sharp">person_outline</span>
+          <h3>Profile</h3>
+        </a>
+        <a id="message" href="#">
+          <span class="material-icons-sharp">mail_outline</span>
+          <h3>Messages</h3>
+          <span class="message-count">New</span>
+        </a>
+        <a id="settings" href="#">
+          <span class="material-icons-sharp">settings</span>
+          <h3>Settings</h3>
+        </a>
+        <a class="logout" href="#">
+          <span class="material-icons-sharp">logout</span>
+          <h3>Logout</h3>
+        </a>
+    </aside>
+
+
+
+    <main>
+      <h1>Dashoard</h1>
+
+      <div class="date">
+        <p id="date"></p>
+      </div>
+      <p><br></p>
+      <p><br></p>
+      <div class="insights">
+        <div class="sales">
+          <span class="material-icons-sharp">analytics</span>
+          <div class="middle">
+            <div class="left">
+              <p><br></p>
+              <h1>My Jamia</h1>
+              <h3>Account</h3>
+            </div>
+            <div class="progress">
+              <svg>
+                <circle cx='38' cy='38' r='36'></circle>
+              </svg>
+              <div class="number">
+                <button type="button" onclick="location.href='https://www.jmi.ac.in/'">Go</button>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+
+        <div class="expenses">
+          <span class="material-icons-sharp">analytics</span>
+          <div class="middle">
+            <div class="left">
+              <p><br></p>
+              <h1>My Jamia</h1>
+              <h3>Account</h3>
+            </div>
+            <div class="progress">
+              <svg>
+                <circle cx='38' cy='38' r='36'></circle>
+              </svg>
+              <div class="number">
+                <button type="button" onclick="location.href='https://www.jmi.ac.in/'">Go</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="income">
+          <span class="material-icons-sharp">analytics</span>
+          <div class="middle">
+            <div class="left">
+              <p><br></p>
+              <h1>My Jamia</h1>
+              <h3>Account</h3>
+            </div>
+            <div class="progress">
+              <svg>
+                <circle cx='38' cy='38' r='36'></circle>
+              </svg>
+              <div class="number">
+                <button type="button" onclick="location.href='https://www.jmi.ac.in/'">Go</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <reg>
+      <div class="registration">
+        <h1>Registration</h1>
+        <form action="#">
+          <div class="form first">
+            <div class="details personal">
+              <span class="title">Personal Details</span>
+
+              <div class="fields">
+                <div class="input-field">
+                  <label>Full Name</label>
+                  <input type="text" placeholder="Enter your name" required>
+                </div>
+
+                <div class="input-field">
+                  <label>Date of Birth</label>
+                  <input type="date" placeholder="Enter birth date" required>
+                </div>
+
+                <div class="input-field">
+                  <label>Father's Name</label>
+                  <input type="text" placeholder="Enter your Father's Name" required>
+                </div>
+
+                <div class="input-field">
+                  <label>Mobile Number</label>
+                  <input type="number" placeholder="Enter mobile number" required>
+                </div>
+
+                <div class="input-field">
+                  <label>Gender</label>
+                  <select required>
+                    <option disabled selected>Select gender</option>
+                    <option>Male</option>
+                    <option>Female</option>
+                    <option>Others</option>
+                  </select>
+                </div>
+
+                <div class="input-field">
+                  <label>Email</label>
+                  <input type="text" placeholder="Enter your Email" required>
+                </div>
+              </div>
+            </div>
+
+            <div class="details ID">
+              <span class="title">Identity Details</span>
+
+              <div class="fields">
+                <div class="input-field">
+                  <label>ID Type</label>
+                  <input type="text" placeholder="Enter ID type" required>
+                </div>
+
+                <div class="input-field">
+                  <label>ID Number</label>
+                  <input type="number" placeholder="Enter ID number" required>
+                </div>
+
+                <div class="input-field">
+                  <label>Faculty</label>
+                  <input type="text" placeholder="Enter Faculty" required>
+                </div>
+
+                <div class="input-field">
+                  <label>Department</label>
+                  <input type="text" placeholder="Enter Department" required>
+                </div>
+
+                <div class="input-field">
+                  <label>Issued Date</label>
+                  <input type="date" placeholder="Enter your issued date" required>
+                </div>
+
+                <div class="input-field">
+                  <label>Expiry Date</label>
+                  <input type="date" placeholder="Enter expiry date" required>
+                </div>
+              </div>
+
+              <button class="nextBtn">
+                <span class="btnText">Next</span>
+                <i class="uil uil-navigator"></i>
+              </button>
+            </div>
+          </div>
+
+          <div class="form second">
+            <div class="details address">
+              <span class="title">Address Details</span>
+
+              <div class="fields">
+                <div class="input-field">
+                  <label>Address Type</label>
+                  <input type="text" placeholder="Permanent or Temporary" required>
+                </div>
+
+                <div class="input-field">
+                  <label>Nationality</label>
+                  <input type="text" placeholder="Enter nationality" required>
+                </div>
+
+                <div class="input-field">
+                  <label>State</label>
+                  <input type="text" placeholder="Enter your state" required>
+                </div>
+
+                <div class="input-field">
+                  <label>District</label>
+                  <input type="text" placeholder="Enter your district" required>
+                </div>
+
+                <div class="input-field">
+                  <label>Block Number</label>
+                  <input type="number" placeholder="Enter block number" required>
+                </div>
+
+                <div class="input-field">
+                  <label>Ward Number</label>
+                  <input type="number" placeholder="Enter ward number" required>
+                </div>
+              </div>
+            </div>
+
+            <div class="details family">
+              <span class="title">Family Details</span>
+
+              <div class="fields">
+                <div class="input-field">
+                  <label>Father Name</label>
+                  <input type="text" placeholder="Enter father name" required>
+                </div>
+
+                <div class="input-field">
+                  <label>Mother Name</label>
+                  <input type="text" placeholder="Enter mother name" required>
+                </div>
+
+                <div class="input-field">
+                  <label>Grandfather</label>
+                  <input type="text" placeholder="Enter grandfther name" required>
+                </div>
+
+                <div class="input-field">
+                  <label>Spouse Name</label>
+                  <input type="text" placeholder="Enter spouse name" required>
+                </div>
+
+                <div class="input-field">
+                  <label>Father in Law</label>
+                  <input type="text" placeholder="Father in law name" required>
+                </div>
+
+                <div class="input-field">
+                  <label>Mother in Law</label>
+                  <input type="text" placeholder="Mother in law name" required>
+                </div>
+              </div>
+
+              <div class="buttons">
+                <div class="backBtn">
+                  <i class="uil uil-navigator"></i>
+                  <span class="btnText">Back</span>
+                </div>
+
+                <button class="sumbit">
+                  <span class="btnText">Submit</span>
+                  <i class="uil uil-navigator"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </reg>
+
+
+    <div class="right">
+      <div class="top">
+        <button id="menu-btn">
+          <span class="material-icons-sharp">menu</span>
+        </button>
+        <div class="theme-toggler">
+          <span class="material-icons-sharp active">light_mode</span>
+          <span class="material-icons-sharp">dark_mode</span>
+        </div>
+        <div class="profile">
+          <div class="info">
+            <p>Hey, <b>Dr.Faiyaz</b></p>
+            <small class="text-muted">Admin</small>
+          </div>
+          <div class="admin-photo">
+            <img src="css/Images/admin_rigth2.jpg">
+          </div>
+        </div>
+      </div>
+
+
+      <div class="recent-updates">
+        <h2>Recent Updates</h2>
+        <div class="updates">
+          <div class="update">
+            <div class="profile-photo">
+              <span class="material-symbols-outlined">
+                feed
+              </span>
+            </div>
+            <div class="message">
+              <p>
+                <a href="http://jmicoe.in/pdf23/DIPLOMA NOTICE.pdf" target="_blank">Notice for online Examination forms
+                  for
+                  Diploma in
+                  Engineering(Self-finance)</a>
+              </p>
+
+              <small class="text-muted">Now</small>
+            </div>
+          </div>
+          <div class="update">
+            <div class="profile-photo">
+              <span class="material-symbols-outlined">
+                feed
+              </span>
+            </div>
+            <div class="message">
+              <p>
+                <a href="http://jmicoe.in/pdf23/FACULTY OF NATURAL SCIENCE COMPARTMENT REVISED  DATE SHEET.pdf"
+                  target="_blank">FACULTY
+                  OF NATURAL SCIENCE COMPARTMENT REVISED DATE SHEET</a>
+              </p>
+              <small class="text-muted">Now</small>
+            </div>
+          </div>
+          <div class="update">
+            <div class="profile-photo">
+              <span class="material-symbols-outlined">
+                feed
+              </span>
+            </div>
+            <div class="message">
+              <p>
+                <a href="http://jmicoe.in/pdf23/REMAINING DATESHEET OF COMPARTMENT U.G. (SEMESTER-V AND SEMESTER-VI) OFFLINE MODE (SESSION-2021-22).pdf"
+                  target="_blank">Remaining Datesheet for compartment examination-2022(Faculty of Humanities &amp;
+                  Language
+                  and
+                  Faculty of Social Sciences)</a>
+              </p>
+              <small class="text-muted">Now</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="JS/admin-dashboard.js"></script>
+</body>
+
+</html>
